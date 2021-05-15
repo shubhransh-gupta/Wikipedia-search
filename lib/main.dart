@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Expanded(
                   child: TextField(
                     controller: searchTextController,
-                    obscureText: true,
+                    obscureText: false,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                       labelText: 'TextField',
